@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+
+h1{
+  font-size: 75px;
+  background: #201f21;
+  color: teal;
+  text-align: center;
+}
+
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: #201f21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-box {
+  width: 400px;
+  max-width: 90%;
+  position: relative;
+}
+
+.input-box input {
+  width: 100%;
+  height: 60px;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  color: #fff;
+  background: transparent;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: 40px; /* Ensures button has a proper width */
+  height: 40px; /* Ensures button has a proper height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+button img {
+  width: 20px; /* Adjust the width of the icon to fit within the button */
+  height: 20px; /* Adjust the height of the icon to fit within the button */
+  object-fit: contain; /* Ensures image stays within its bounds */
+}
+
+#message {
+  position: absolute;
+  bottom: -30px;
+  color: #fff;
+  font-size: 15px;
+}
+
+#suggestion {
+  margin-top: 10px;
+  color: yellow;
+  font-size: 13px;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+
